@@ -1,9 +1,9 @@
-name: Update Profile README
+name: Auto Update Profile
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Roda todo dia à meia-noite
-  workflow_dispatch: # Permite rodar manualmente
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Isso faz aparecer o botão para rodar manualmente
   push:
     branches:
       - main
@@ -28,8 +28,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "chore: auto-update profile with latest projects" || exit 0
+          git commit -m "docs: auto-update profile [skip ci]" || exit 0
           git push
