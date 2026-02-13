@@ -26,16 +26,12 @@ I am a results-oriented professional with a solid background in IT operations an
 * **Infrastructure/DevOps:** Linux, Automation Scripts (Python/Shell/PowerShell), Docker.
 * **Data & Analysis:** Power BI, Dashboard Design, Data Modeling.
 
----
-
 ### 📊 GitHub Stats & Open Source Activity
 
 <p align="left">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Fesisp&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fesisp&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Fesisp&show_icons=true&theme=tokyonight&hide_border=true" alt="Felipe's GitHub Stats" />
+  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fesisp&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
 </p>
-
----
 
 ### 📬 Connect with me
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-da-silva-spinola/)
