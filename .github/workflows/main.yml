@@ -12,21 +12,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      # Geração do Dashboard Focado em Ferramentas e Backend
+      # Geração do Dashboard Focado em Engenharia (Topics e Stack)
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           
-          # 1. REMOVE O SOCIAL: Deixamos a base vazia para sumir seguidores/seguindo
+          # 1. REMOVE O SOCIAL: Define base como vazio para esconder seguidores, seguindo e estrelas
           base: "" 
           
-          # 2. FOCO EM TECNOLOGIA: Ativa a exibição de ferramentas (Tags/Topics)
+          # 2. FOCO EM TECNOLOGIA: Transforma os seus Topics (Tags) em ícones visuais profissionais
           plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: icons # Transforma suas tags em ícones (Docker, Flask, etc.)
+          plugin_topics_limit: 20
+          plugin_topics_mode: icons # Irá exibir logótipos como Docker, Flask, Java, etc.
           
-          # 3. LINGUAGENS ESTRATÉGICAS: Ignora Front-end para destacar Backend
+          # 3. LINGUAGENS ESTRATÉGICAS: Oculta tecnologias de front-end para destacar o seu Backend
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_ignored: html, css, scss, javascript
@@ -34,18 +34,18 @@ jobs:
           
           config_timezone: America/Boa_Vista
 
-      # Atualização da lista de projetos (Mantendo seu script funcional)
+      # Atualização da lista de projetos via Python (Mantendo o seu script funcional)
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       - run: pip install requests
       - run: python update_profile.py
 
-      # Deploy
+      # Deploy das alterações (SVG e README) para o repositório
       - name: Deploy Changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "docs: focus on engineering metrics [skip ci]" || exit 0
+          git commit -m "docs: engineering focused metrics and project list [skip ci]" || exit 0
           git push
