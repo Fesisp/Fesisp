@@ -29,8 +29,8 @@ I am a results-oriented professional with a solid background in IT operations an
 ### 📊 GitHub Stats & Open Source Activity
 
 <p align="left">
-  <img width="48%" src="github-readme-stats-qed5j2pku-felipe-da-silva-spinolas-projects.vercel.app/api?username=Fesisp&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="42%" src="github-readme-stats-qed5j2pku-felipe-da-silva-spinolas-projects.vercel.app/api/top-langs/?username=Fesisp&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="github-readme-stats-qed5j2pku-felipe-da-silva-spinolas-projects.vercel.app" />
+  <img width="42%" src="github-readme-stats-qed5j2pku-felipe-da-silva-spinolas-projects.vercel.app" />
 </p>
 
 ### 📬 Connect with me
