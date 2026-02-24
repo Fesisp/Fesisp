@@ -21,13 +21,13 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="319.4448318728965" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="319.4448318728965" y="0" width="123.88401114061342" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="443.3288430135099" y="0" width="7.532605352865502" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="450.86144836637544" y="0" width="3.637289001892865" height="8" fill="#C1F12E"/>
-                    <rect mask="url(#languages-bar)" x="454.4987373682683" y="0" width="3.2437723884314345" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="457.7425097566997" y="0" width="2.228599150160049" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="459.9711089068598" y="0" width="0.028891093140206263" height="8" fill="#3B2F63"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="343.624753663002" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="343.624753663002" y="0" width="102.57205413227513" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="446.19680779527715" y="0" width="6.236759666541743" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="452.4335674618189" y="0" width="3.0115605796249043" height="8" fill="#C1F12E"/>
+                    <rect mask="url(#languages-bar)" x="455.44512804144375" y="0" width="2.6857412345271676" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="458.13086927597095" y="0" width="1.845209810085158" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="459.9760790860561" y="0" width="0.023920913943884476" height="8" fill="#3B2F63"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -39,7 +39,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>69.44%</div>
+                                <div>74.7%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -50,7 +50,7 @@
                                 PowerShell
                             </div>
                             <small>
-                                <div>1.64%</div>
+                                <div>1.36%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -61,7 +61,7 @@
                                 Shell
                             </div>
                             <small>
-                                <div>0.71%</div>
+                                <div>0.58%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -85,7 +85,7 @@
                                 Java
                             </div>
                             <small>
-                                <div>26.93%</div>
+                                <div>22.3%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -96,7 +96,7 @@
                                 Batchfile
                             </div>
                             <small>
-                                <div>0.79%</div>
+                                <div>0.65%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -107,7 +107,7 @@
                                 Dockerfile
                             </div>
                             <small>
-                                <div>0.48%</div>
+                                <div>0.4%</div>
                             </small>
                         </div>
                     </section>
